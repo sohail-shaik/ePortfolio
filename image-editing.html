@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editing Project - Sohail's ePortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="hero-content">
+            <h1>Image Editing</h1>
+            <a href="index.html" class="cta-btn">Back to Portfolio</a>
+        </div>
+    </header>
+
+    <!-- Project Content Section -->
+    <section class="project-details">
+        <div class="project-description">
+            <h2 class="project-title">Book Cover: "Whisper in the Dark"</h2>
+            <p class="project-text">For the book cover, I chose the book "Whisper in the Dark" by Joseph Bruchac, which follows Maddy, a young girl with Native American roots. She starts experiencing strange and scary events connected to an old family legend about an evil spirit. As danger grows, both from the spirit and a real-life threat, Maddy uses her courage and knowledge of her heritage to protect herself. The story mixes mystery, fear, and Native American culture.</p>
+            <img src="Book_Cover.jpeg" alt="Whisper in the Dark Book Cover" class="project-image">
+        </div>
+        <div class="project-description">
+            <h2 class="project-title">Logo: "Limitless Frames: Crafting Unique Narratives"</h2>
+            <p class="project-text">The logo for “Limitless Frames: Crafting Unique Narratives” captures the essence of a film production company that champions bold, unconventional scripts. Designed with a minimalist approach, the logo merges the worlds of cinema and creativity. The clean, balanced shapes symbolize the simplicity and purity of creative ideas, free from unnecessary clutter. This reflects the company’s mission of supporting unique voices in filmmaking, allowing innovative scripts to seamlessly blend with the art of cinema.</p>
+            <img src="Logo.jpeg" alt="Limitless Frames Logo" class="project-image">
+        </div>
+    </section>
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Sohail's ePortfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
