@@ -350,6 +350,7 @@ form button:hover {
         grid-template-columns: 1fr; /* One column for mobile devices */
     }
 }
+
 /* Contact Section Styles */
 #contact {
     padding: 40px 20px;
@@ -373,7 +374,7 @@ form button:hover {
 #contact p {
     font-size: 1.1rem;
     color: #555;
-    line-height: 1.6;
+    line-height: 1.8;
     margin-bottom: 20px;
     animation: fadeIn 1.5s ease-in-out;
 }
@@ -383,6 +384,9 @@ form button:hover {
     color: #0073b1;
     font-weight: bold;
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px; /* Adjusts space between icon and text */
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -393,7 +397,7 @@ form button:hover {
 
 /* Icons */
 .contact-link i {
-    margin-right: 8px;
+    font-size: 1.2rem;
 }
 
 /* Animation for Fade In */
@@ -408,3 +412,46 @@ form button:hover {
     }
 }
 
+
+/* Styling for Key Features List */
+ul.key-features {
+    list-style-type: disc; 
+    padding-left: 20px;    
+    margin-top: 20px;      
+    margin-bottom: 20px;   
+}
+
+ul.key-features li {
+    font-size: 1rem;     
+    line-height: 1.5;    
+    color: #555;         
+    margin-bottom: 10px; 
+}
+
+.video-wrapper {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 20px 0; 
+}
+
+.video-container iframe {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+/* Style for editing process list */
+.editing-process-list {
+    list-style-type: disc;
+    margin-left: 20px; 
+    padding-left: 20px; 
+}
+
+.editing-process-list li {
+    line-height: 1.6; 
+}
+
+.editing-process-list li strong {
+    color: #050400; 
+}
